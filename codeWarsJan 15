@@ -1,6 +1,6 @@
 function checkForFactor (base, factor) {
   if (base%factor===0){
-    return true
+    return true;
   }
-  else {return false}
+  else {return false;}
 }
