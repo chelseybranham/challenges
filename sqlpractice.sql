@@ -2,6 +2,6 @@ SELECT SupplierName FROM [Suppliers]
 WHERE City = 'Ann Arbor'
 
 select * 
-FROM orderDetails
+FROM Products
 LEFT JOIN Products
 ON OrderDetails.ProductID=Products.ProductID
