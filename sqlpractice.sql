@@ -28,3 +28,5 @@ e_dept varchar(20),
 
 primary key (e_id)
 );
+
+elect * from employee where e_gender= 'Male' or e_age<30;
