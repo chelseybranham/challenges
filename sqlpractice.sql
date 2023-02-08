@@ -14,3 +14,17 @@ t2.price
 FROM OrderDetails as t1
 LEFT JOIN Products as t2
 ON t1.ProductID=t2.ProductID
+
+
+
+
+create table employee (
+e_id int,
+e_name varchar(20),
+e_salary int, 
+e_age int, 
+e_gender varchar(20),
+e_dept varchar(20),
+
+primary key (e_id)
+);
