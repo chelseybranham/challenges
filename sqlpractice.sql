@@ -17,18 +17,10 @@ ON t1.ProductID=t2.ProductID
 
 
 
-
-create table employee (
-e_id int,
-e_name varchar(20),
-e_salary int, 
-e_age int, 
-e_gender varchar(20),
-e_dept varchar(20),
-
-primary key (e_id)
-);
-
-select * from employee where e_gender= 'Male' or e_age<30;
-
-select * from employee where e_age BETWEEN 30 and 45;
+SELECT UnitPrice ,
+Count(*)
+FROM [Order Details]
+WHERE UnitPrice>10
+GROUP BY UnitPrice
+HAVING COUNT(*)>10
+ORDER BY UnitPrice
