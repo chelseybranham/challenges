@@ -22,4 +22,4 @@ Count(*)
 FROM [Order Details]
 WHERE UnitPrice>10
 GROUP BY UnitPrice
-HAVING COUNT(*)>10
+
