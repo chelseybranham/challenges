@@ -20,6 +20,6 @@ ON t1.ProductID=t2.ProductID
 SELECT UnitPrice ,
 Count(*)
 FROM [Order Details]
-WHERE UnitPrice>10
+
 
 
