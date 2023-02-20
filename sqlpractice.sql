@@ -16,3 +16,9 @@ LEFT JOIN Products as t2
 ON t1.ProductID=t2.ProductID
 
 
+SELECT
+    select_list
+FROM
+    table_name
+ORDER BY 
+    column_name | expression [ASC | DESC ];
