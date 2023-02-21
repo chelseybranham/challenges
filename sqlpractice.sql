@@ -20,5 +20,3 @@ SELECT
     select_list
 FROM
     table_name
-ORDER BY 
-    column_name | expression [ASC | DESC ];
