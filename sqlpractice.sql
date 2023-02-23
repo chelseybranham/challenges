@@ -17,4 +17,8 @@ ON t1.ProductID=t2.ProductID
 
 
 SELECT
-    select_list
+    first_name,
+    last_name
+FROM
+    sales.customers
+
