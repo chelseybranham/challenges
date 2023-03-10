@@ -39,4 +39,4 @@ total
 FROM
 Invoice
 WHERE 
-InvoiceDate>'2010-05-22 00:00:00'
+total >0.99 AND BillingCity='Dublin'
