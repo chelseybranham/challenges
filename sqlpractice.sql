@@ -39,4 +39,4 @@ total
 FROM
 Invoice
 WHERE 
-InvoiceDate>'2010-05-22 00:00:00' AND total <3.00
+InvoiceDate>'2010-05-22 00:00:00'
