@@ -31,10 +31,6 @@ WHERE
     list_price IN (89.99, 109.99, 159.99)
 ORDER BY
     list_price;
-
-SELECT Name, Composer from Track
-WHERE Composer = 'unavailable';
-
 SELECT 
 InvoiceDate, 
 BillingAddress, 
@@ -43,4 +39,4 @@ total
 FROM
 Invoice
 WHERE 
-InvoiceDate='2010-05-22 00:00:00'
+InvoiceDate>'2010-05-22 00:00:00' AND total <3.00
