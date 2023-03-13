@@ -34,3 +34,13 @@ ORDER BY
 
 SELECT Name, Composer from Track
 WHERE Composer = 'unavailable';
+
+SELECT 
+InvoiceDate, 
+BillingAddress, 
+BillingCity,
+total
+FROM
+Invoice
+WHERE 
+InvoiceDate='2010-05-22 00:00:00'
