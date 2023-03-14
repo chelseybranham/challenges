@@ -31,3 +31,6 @@ WHERE
     list_price IN (89.99, 109.99, 159.99)
 ORDER BY
     list_price;
+
+SELECT Name, Composer from Track
+WHERE Composer = 'unavailable';
