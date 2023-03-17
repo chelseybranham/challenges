@@ -40,3 +40,10 @@ FROM
 Invoice
 WHERE 
 total >0.99 AND BillingCity='Dublin'
+SELECT * FROM 
+Invoice AS i
+INNER JOIN
+Customer AS c
+ON
+i.CustomerId=c.CustomerId
+ORDER BY c.CustomerId
