@@ -21,3 +21,6 @@ ORDER BY UnitPrice DESC
 SELECT DISTINCT count(ProductName) 
 FROM Products
 GROUP BY Discontinued
+SELECT ProductID, UnitsOnOrder, UnitsInStock
+FROM Products
+WHERE UnitsInStock<UnitsOnOrder
