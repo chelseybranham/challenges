@@ -18,3 +18,6 @@ ON t1.ProductID=t2.ProductID
 SELECT TOP 20 ProductName, UnitPrice
 FROM Products
 ORDER BY UnitPrice DESC
+SELECT DISTINCT count(ProductName) 
+FROM Products
+GROUP BY Discontinued
