@@ -14,13 +14,3 @@ t2.price
 FROM OrderDetails as t1
 LEFT JOIN Products as t2
 ON t1.ProductID=t2.ProductID
-
-SELECT TOP 20 ProductName, UnitPrice
-FROM Products
-ORDER BY UnitPrice DESC
-SELECT DISTINCT count(ProductName) 
-FROM Products
-GROUP BY Discontinued
-SELECT ProductID, UnitsOnOrder, UnitsInStock
-FROM Products
-WHERE UnitsInStock<UnitsOnOrder
